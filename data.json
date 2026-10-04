@@ -191,7 +191,7 @@
               "controlValues": {
                 "SHOW_NOTICE": true,
                 "LABEL": "Notice",
-                "NOTICE_TEXT": "24 ঘন্টাই টপআপ চালু থাকে... যেকোনো সমস্যায় আমাদের সাথে যোগাযোগ করুন",
+                "NOTICE_TEXT": "24 ঘন্টাই  চালু থাকে... যেকোনো সমস্যায় আমাদের সাথে যোগাযোগ করুন",
                 "SCROLL": true,
                 "SPEED": 20,
                 "STICKY": false,
@@ -1103,7 +1103,7 @@
         "controlValues": {
           "SHOW_NOTICE": true,
           "LABEL": "Notice",
-          "NOTICE_TEXT": "24 ঘন্টাই টপআপ চালু থাকে... যেকোনো সমস্যায় আমাদের সাথে যোগাযোগ করুন",
+          "NOTICE_TEXT": "24 ঘন্টাই  চালু থাকে... যেকোনো সমস্যায় আমাদের সাথে যোগাযোগ করুন",
           "SCROLL": true,
           "SPEED": 20,
           "STICKY": false,
