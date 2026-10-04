@@ -483,7 +483,7 @@
                     },
                     {
                       "id": "k_rmfn09",
-                      "label": "1000 Diamonds",
+                      "label": "2000 Diamonds",
                       "price": "1000",
                       "old": "1200"
                     }
@@ -690,7 +690,7 @@
                 "pay": true,
                 "test": false
               },
-              "scriptSeen": "1693978041",
+              "scriptSeen": "352400408",
               "dashUrl": "https://monilaila.github.io/Google-API./projects/dashboard/dashboard.html"
             }
           },
@@ -914,6 +914,9 @@
         "4": true,
         "6": true,
         "8": true
+      },
+      "scriptSeen": {
+        "https://script.google.com/macros/s/AKfycbxX2XKx71jJFYR70Sli2keX-p5Yafhdx9Y3QfG-baDZlnuVLiewvdeQLD9h8n4qiplCOQ/exec": "677b9b18"
       }
     },
     "github": {
@@ -1401,7 +1404,7 @@
               },
               {
                 "id": "k_rmfn09",
-                "label": "1000 Diamonds",
+                "label": "2000 Diamonds",
                 "price": "1000",
                 "old": "1200"
               }
@@ -1608,7 +1611,7 @@
           "pay": true,
           "test": false
         },
-        "scriptSeen": "1693978041",
+        "scriptSeen": "352400408",
         "dashUrl": "https://monilaila.github.io/Google-API./projects/dashboard/dashboard.html"
       }
     },
