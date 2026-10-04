@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Home",
+    "title": "Rejaul Korim RK",
     "logo": "Rejaul_Korim_RK",
     "filename": "index",
     "theme": "light",
@@ -12,7 +12,7 @@
       {
         "id": "pg_1790864350575",
         "filename": "index",
-        "title": "Home",
+        "title": "Rejaul Korim RK",
         "blocks": [
           {
             "id": "b1790864350575i3aave",
@@ -686,7 +686,7 @@
                 "done": "Order placed!",
                 "check": "Check order status"
               },
-              "shopRev": 1791126099474,
+              "shopRev": 1791126777734,
               "checks": {
                 "seller": true,
                 "script": true,
@@ -1613,7 +1613,7 @@
           "done": "Order placed!",
           "check": "Check order status"
         },
-        "shopRev": 1791126099474,
+        "shopRev": 1791126777734,
         "checks": {
           "seller": true,
           "script": true,
