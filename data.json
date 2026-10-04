@@ -511,6 +511,12 @@
                       "label": "50 Diamond",
                       "price": "88",
                       "old": "100"
+                    },
+                    {
+                      "id": "k_0x2vhg",
+                      "label": "500 Diamond",
+                      "price": "300",
+                      "old": "350"
                     }
                   ],
                   "allowQty": false,
@@ -680,7 +686,7 @@
                 "done": "Order placed!",
                 "check": "Check order status"
               },
-              "shopRev": 1791121441050,
+              "shopRev": 1791126099474,
               "checks": {
                 "seller": true,
                 "script": true,
@@ -690,7 +696,7 @@
                 "pay": true,
                 "test": false
               },
-              "scriptSeen": "352400408",
+              "scriptSeen": "-276852663",
               "dashUrl": "https://monilaila.github.io/Google-API./projects/dashboard/dashboard.html"
             }
           },
@@ -916,7 +922,7 @@
         "8": true
       },
       "scriptSeen": {
-        "https://script.google.com/macros/s/AKfycbxX2XKx71jJFYR70Sli2keX-p5Yafhdx9Y3QfG-baDZlnuVLiewvdeQLD9h8n4qiplCOQ/exec": "677b9b18"
+        "https://script.google.com/macros/s/AKfycbxX2XKx71jJFYR70Sli2keX-p5Yafhdx9Y3QfG-baDZlnuVLiewvdeQLD9h8n4qiplCOQ/exec": "96287c64"
       }
     },
     "github": {
@@ -1432,6 +1438,12 @@
                 "label": "50 Diamond",
                 "price": "88",
                 "old": "100"
+              },
+              {
+                "id": "k_0x2vhg",
+                "label": "500 Diamond",
+                "price": "300",
+                "old": "350"
               }
             ],
             "allowQty": false,
@@ -1601,7 +1613,7 @@
           "done": "Order placed!",
           "check": "Check order status"
         },
-        "shopRev": 1791121441050,
+        "shopRev": 1791126099474,
         "checks": {
           "seller": true,
           "script": true,
@@ -1611,7 +1623,7 @@
           "pay": true,
           "test": false
         },
-        "scriptSeen": "352400408",
+        "scriptSeen": "-276852663",
         "dashUrl": "https://monilaila.github.io/Google-API./projects/dashboard/dashboard.html"
       }
     },
