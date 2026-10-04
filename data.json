@@ -214,13 +214,6 @@
             }
           },
           {
-            "id": "bmurbe0wv0fm",
-            "type": "divider",
-            "data": {
-              "symbol": "✦"
-            }
-          },
-          {
             "id": "bmuqo5yp2vx0",
             "type": "customblock",
             "data": {
@@ -756,6 +749,13 @@
             }
           },
           {
+            "id": "bmurbe0wv0fm",
+            "type": "divider",
+            "data": {
+              "symbol": "✦"
+            }
+          },
+          {
             "id": "b1790864350575w4ayz3",
             "type": "stats",
             "data": {
@@ -1123,13 +1123,6 @@
           "CUSTOM_BAR": "#2a2926",
           "CUSTOM_TEXT": "#f0ede6"
         }
-      }
-    },
-    {
-      "id": "bmurbe0wv0fm",
-      "type": "divider",
-      "data": {
-        "symbol": "✦"
       }
     },
     {
@@ -1662,6 +1655,13 @@
     },
     {
       "id": "bmuslnpdhx40",
+      "type": "divider",
+      "data": {
+        "symbol": "✦"
+      }
+    },
+    {
+      "id": "bmurbe0wv0fm",
       "type": "divider",
       "data": {
         "symbol": "✦"
