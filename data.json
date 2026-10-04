@@ -480,6 +480,12 @@
                       "label": "720 Diamonds",
                       "price": "800",
                       "old": "850"
+                    },
+                    {
+                      "id": "k_rmfn09",
+                      "label": "1000 Diamonds",
+                      "price": "1000",
+                      "old": "1200"
                     }
                   ],
                   "oldPrice": "120",
@@ -674,7 +680,7 @@
                 "done": "Order placed!",
                 "check": "Check order status"
               },
-              "shopRev": 1790985792932,
+              "shopRev": 1791121441050,
               "checks": {
                 "seller": true,
                 "script": true,
@@ -684,7 +690,7 @@
                 "pay": true,
                 "test": false
               },
-              "scriptSeen": "730805760",
+              "scriptSeen": "1693978041",
               "dashUrl": "https://monilaila.github.io/Google-API./projects/dashboard/dashboard.html"
             }
           },
@@ -1392,6 +1398,12 @@
                 "label": "720 Diamonds",
                 "price": "800",
                 "old": "850"
+              },
+              {
+                "id": "k_rmfn09",
+                "label": "1000 Diamonds",
+                "price": "1000",
+                "old": "1200"
               }
             ],
             "oldPrice": "120",
@@ -1586,7 +1598,7 @@
           "done": "Order placed!",
           "check": "Check order status"
         },
-        "shopRev": 1790985792932,
+        "shopRev": 1791121441050,
         "checks": {
           "seller": true,
           "script": true,
@@ -1596,7 +1608,7 @@
           "pay": true,
           "test": false
         },
-        "scriptSeen": "730805760",
+        "scriptSeen": "1693978041",
         "dashUrl": "https://monilaila.github.io/Google-API./projects/dashboard/dashboard.html"
       }
     },
