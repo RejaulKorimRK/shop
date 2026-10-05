@@ -246,7 +246,7 @@
                       "id": "k_demo01",
                       "label": "25 Diamonds",
                       "price": "23",
-                      "old": "25"
+                      "old": "250"
                     },
                     {
                       "id": "k_f48aw2",
@@ -483,7 +483,7 @@
                 "pay": true,
                 "test": false
               },
-              "scriptSeen": "1291689878",
+              "scriptSeen": "-302415656",
               "dashUrl": "https://monilaila.github.io/Google-API./projects/dashboard/dashboard.html",
               "dashLink": true,
               "email": {
@@ -937,7 +937,7 @@
         "8": true
       },
       "scriptSeen": {
-        "https://script.google.com/macros/s/AKfycbxX2XKx71jJFYR70Sli2keX-p5Yafhdx9Y3QfG-baDZlnuVLiewvdeQLD9h8n4qiplCOQ/exec": "4605a002"
+        "https://script.google.com/macros/s/AKfycbxX2XKx71jJFYR70Sli2keX-p5Yafhdx9Y3QfG-baDZlnuVLiewvdeQLD9h8n4qiplCOQ/exec": "d6ed79e2"
       }
     },
     "github": {
@@ -1188,7 +1188,7 @@
                 "id": "k_demo01",
                 "label": "25 Diamonds",
                 "price": "23",
-                "old": "25"
+                "old": "250"
               },
               {
                 "id": "k_f48aw2",
@@ -1425,7 +1425,7 @@
           "pay": true,
           "test": false
         },
-        "scriptSeen": "1291689878",
+        "scriptSeen": "-302415656",
         "dashUrl": "https://monilaila.github.io/Google-API./projects/dashboard/dashboard.html",
         "dashLink": true,
         "email": {
