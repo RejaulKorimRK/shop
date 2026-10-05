@@ -699,7 +699,21 @@
               },
               "scriptSeen": "-276852663",
               "dashUrl": "https://monilaila.github.io/Google-API./projects/dashboard/dashboard.html",
-              "dashLink": true
+              "dashLink": true,
+              "email": {
+                "on": true,
+                "shopName": "",
+                "pay": [
+                  {
+                    "label": "bKash",
+                    "number": "01647277895"
+                  }
+                ],
+                "replyTo": "",
+                "extra": "",
+                "subject": "",
+                "lang": "en"
+              }
             }
           },
           {
@@ -913,7 +927,7 @@
     "google": {
       "clientId": "105779369545-vgsrl95vgoatvqb05g6aqsvvjiee0jqr.apps.googleusercontent.com",
       "scriptUrl": "https://script.google.com/macros/s/AKfycbxX2XKx71jJFYR70Sli2keX-p5Yafhdx9Y3QfG-baDZlnuVLiewvdeQLD9h8n4qiplCOQ/exec",
-      "ghUser": "https://monilaila.github.io",
+      "ghUser": "rejaulkorimrk",
       "domain": "",
       "done": {
         "1": true,
@@ -1628,7 +1642,21 @@
         },
         "scriptSeen": "-276852663",
         "dashUrl": "https://monilaila.github.io/Google-API./projects/dashboard/dashboard.html",
-        "dashLink": true
+        "dashLink": true,
+        "email": {
+          "on": true,
+          "shopName": "",
+          "pay": [
+            {
+              "label": "bKash",
+              "number": "01647277895"
+            }
+          ],
+          "replyTo": "",
+          "extra": "",
+          "subject": "",
+          "lang": "en"
+        }
       }
     },
     {
