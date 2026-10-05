@@ -220,7 +220,7 @@
             "data": {
               "title": "Rejaul Korim RK SHOP",
               "currency": "৳",
-              "mode": "one",
+              "mode": "multi",
               "whatsapp": "8801647277895",
               "payment": "Send the money to: 8801647277895 (bKash)\nReference: {id}",
               "showRecent": true,
@@ -240,7 +240,7 @@
                   "price": "100",
                   "allowQty": true,
                   "available": true,
-                  "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
+                  "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
                   "packages": [
                     {
                       "id": "k_demo01",
@@ -269,7 +269,7 @@
                   ],
                   "oldPrice": "120",
                   "label": "HOT",
-                  "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
+                  "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
                 },
                 {
                   "id": "p_fl488y",
@@ -300,8 +300,8 @@
                   ],
                   "allowQty": true,
                   "available": true,
-                  "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n",
-                  "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
+                  "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
+                  "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
                 },
                 {
                   "id": "p_w4y277",
@@ -332,8 +332,8 @@
                   ],
                   "allowQty": false,
                   "available": true,
-                  "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
-                  "details": "⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
+                  "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
+                  "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
                 },
                 {
                   "id": "p_048wv8",
@@ -370,8 +370,8 @@
                   ],
                   "allowQty": false,
                   "available": true,
-                  "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
-                  "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
+                  "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
+                  "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
                 },
                 {
                   "id": "p_vmj5xx",
@@ -402,8 +402,8 @@
                   ],
                   "allowQty": true,
                   "available": true,
-                  "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
-                  "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
+                  "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
+                  "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
                   "label": "New"
                 },
                 {
@@ -429,8 +429,8 @@
                   ],
                   "allowQty": false,
                   "available": true,
-                  "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
-                  "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
+                  "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
+                  "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
                 }
               ],
               "fields": [
@@ -483,7 +483,7 @@
                 "pay": true,
                 "test": false
               },
-              "scriptSeen": "148050007",
+              "scriptSeen": "-1018885724",
               "dashUrl": "https://monilaila.github.io/Google-API./projects/dashboard/dashboard.html",
               "dashLink": true,
               "email": {
@@ -504,68 +504,20 @@
             "hidden": false
           },
           {
-            "id": "bmuqjuaw6w7g",
-            "type": "reviewblock",
-            "data": {
-              "title": "What people say",
-              "subtitle": "Sign in with Google to leave your own review.",
-              "clientId": "",
-              "scriptUrl": "",
-              "tab": "Sheet1",
-              "ratingOn": true,
-              "maxRating": 5,
-              "requireRating": true,
-              "minLen": 10,
-              "maxLen": 1000,
-              "pageSize": 10,
-              "allowEdit": true,
-              "maxPerEmail": 1,
-              "cooldownSec": 30,
-              "confirmSeconds": 5,
-              "moderation": "auto",
-              "onlyGmail": false,
-              "allowedDomain": "",
-              "showAverage": true,
-              "showBreakdown": true,
-              "showAvatar": true,
-              "showAge": true,
-              "showRefresh": true,
-              "starColor": "",
-              "cardBg": "",
-              "radius": "soft",
-              "spacing": "normal",
-              "align": "left",
-              "texts": {
-                "signInPrompt": "Sign in with Google to write a review",
-                "writeTitle": "Write a review",
-                "namePlaceholder": "Your name",
-                "messagePlaceholder": "Share your experience…",
-                "submit": "Review and send",
-                "yourReview": "Your review",
-                "edit": "Edit your review",
-                "confirmTitle": "Send this review?",
-                "confirmWarning": "Once you send this, it is public and you cannot take it back. Please read it again and check it carefully.",
-                "confirmSend": "Send review",
-                "cancel": "Cancel",
-                "success": "Thank you! Your review has been posted.",
-                "emptyTitle": "No reviews yet",
-                "emptyText": "Be the first to share your experience.",
-                "privacy": "We use Google Sign-In to verify your email. Your email is saved with your review and is never shown on the page.",
-                "privacyLinkText": "Privacy policy",
-                "privacyLinkUrl": ""
-              }
-            },
-            "hidden": true
-          },
-          {
             "id": "bmuqo5yp2vx0",
             "type": "customblock",
             "data": {
               "blockName": "Group / Support butt",
-              "code": "<div class=\"bs gb-wrap\">\n<style>\n.gb-wrap .gb-in{max-width:1180px;margin:0 auto;padding:0 12px;font-family:'DM Sans',sans-serif}\n.gb-wrap .gb-row{display:flex;flex-wrap:wrap;gap:14px}\n.gb-wrap .gb-btn{display:flex;align-items:center;gap:14px;width:270px;max-width:100%;padding:10px 14px;border-radius:12px;background:var(--acc,#0ea5e9);color:#fff;text-decoration:none;box-shadow:0 4px 12px rgba(0,0,0,.28);transition:transform .2s,filter .2s;box-sizing:border-box}\n.gb-wrap a.gb-btn:hover{transform:translateY(-2px);filter:brightness(1.1)}\n.gb-wrap .gb-ic{flex:none;width:38px;height:38px;border-radius:50%;background:#fff;color:var(--acc,#0ea5e9);display:flex;align-items:center;justify-content:center;overflow:hidden}\n.gb-wrap .gb-ic svg{width:22px;height:22px;fill:currentColor}\n.gb-wrap .gb-ic img{width:22px;height:22px;object-fit:contain;display:block}\n.gb-wrap .gb-tx{display:flex;flex-direction:column;line-height:1.25;min-width:0}\n.gb-wrap .gb-lab{font-size:11px;text-transform:uppercase;letter-spacing:.05em;opacity:.85}\n.gb-wrap .gb-title{font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}\n@media(max-width:640px){\n.gb-wrap .gb-row{gap:10px}\n.gb-wrap .gb-btn{width:calc(50% - 5px);gap:8px;padding:8px 10px}\n.gb-wrap .gb-ic{width:30px;height:30px}\n.gb-wrap .gb-ic svg,.gb-wrap .gb-ic img{width:18px;height:18px}\n}\n</style>\n<div class=\"gb-in\"><div class=\"gb-row\">\n<a class=\"gb-btn\" href=\"{{LINK_1}}\" data-icon=\"{{ICON_1}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_1}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_1}}</span><span class=\"gb-title\">{{TITLE_1}}</span></span></a>\n<a class=\"gb-btn\" href=\"{{LINK_2}}\" data-icon=\"{{ICON_2}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_2}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_2}}</span><span class=\"gb-title\">{{TITLE_2}}</span></span></a>\n<a class=\"gb-btn\" href=\"{{LINK_3}}\" data-icon=\"{{ICON_3}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_3}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_3}}</span><span class=\"gb-title\">{{TITLE_3}}</span></span></a>\n<a class=\"gb-btn\" href=\"{{LINK_4}}\" data-icon=\"{{ICON_4}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_4}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_4}}</span><span class=\"gb-title\">{{TITLE_4}}</span></span></a>\n</div></div>\n<script>\n(function(){\nvar P={\ntelegram:'<path d=\"M21.5 3.5 2.8 10.7c-.9.3-.9 1.6 0 1.9l4.7 1.5 1.8 5.6c.2.6.9.8 1.4.4l2.6-2.2 4.7 3.4c.6.4 1.4.1 1.6-.6L23 5c.2-.9-.7-1.8-1.5-1.5zM8.5 13.6l9.7-6-7.4 7.2-.3 3.2-2-4.4z\"/>',\nwhatsapp:'<path fill-rule=\"evenodd\" d=\"M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.2 14.8l-.3-.2-2.4.6.7-2.3-.2-.3A8 8 0 0 1 12 4zM8.8 7.5c-.5.5-.6 1.5.2 3 .9 1.7 2.3 3 4 3.7 1.3.5 2.1.2 2.5-.4l.3-.8-1.9-1-.7.7c-.8-.3-2-1.3-2.4-2.4l.7-.7-.9-2z\"/>',\nfacebook:'<path d=\"M14 8h2V5h-2.5C11 5 10 6.6 10 8.5V10H8v3h2v7h3v-7h2.2l.4-3H13V8.7c0-.5.2-.7 1-.7z\"/>',\nmessenger:'<path fill-rule=\"evenodd\" d=\"M12 2C6.5 2 2 6.2 2 11.4c0 2.9 1.4 5.5 3.7 7.2V22l3.4-1.9c.9.3 1.9.4 2.9.4 5.5 0 10-4.2 10-9.4S17.5 2 12 2zm1 12.500-2.500-2.600-4.800 2.600 5.300-5.600 2.500 2.600 4.800-2.600z\"/>',\nyoutube:'<path fill-rule=\"evenodd\" d=\"M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.200 5 12 5 12 5s-6.200 0-7.800.4A2.500 2.500 0 0 0 2.400 7.200C2 8.800 2 12 2 12s0 3.200.4 4.800a2.500 2.500 0 0 0 1.800 1.800C5.800 19 12 19 12 19s6.200 0 7.800-.4a2.500 2.500 0 0 0 1.800-1.800c.4-1.600.4-4.800.4-4.800s0-3.200-.4-4.800zM10 15V9l5 3z\"/>',\ninstagram:'<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"17.3\" cy=\"6.7\" r=\"1.2\"/>',\ntiktok:'<path d=\"M15 3c.3 2.3 1.7 3.8 4 4v3a7 7 0 0 1-4-1.3V15a5 5 0 1 1-5-5h.5v3.2A2 2 0 1 0 12 15V3z\"/>',\ndiscord:'<path fill-rule=\"evenodd\" d=\"M7 6c3-1.500 7-1.500 10 0l2.500 10.500c-2 1.500-4.500 2-7.500 2s-5.500-.5-7.500-2zM9.500 11a1.300 1.300 0 1 0 .01 0zM14.500 11a1.300 1.300 0 1 0 .01 0z\"/>',\nphone:'<path d=\"M6.6 3h3l1.200 4.200-2 1.300a11 11 0 0 0 5.700 5.700l1.300-2L20 13.400v3A3.600 3.600 0 0 1 16.400 20 14 14 0 0 1 4 7.600 3.600 3.600 0 0 1 6.600 3z\"/>',\nemail:'<path fill-rule=\"evenodd\" d=\"M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1.500 2 7.500 5.500L19.500 7z\"/>',\nwebsite:'<path fill-rule=\"evenodd\" d=\"M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1 2.100V8H7.500A8 8 0 0 1 11 4.100zM13 4.100A8 8 0 0 1 16.500 8H13zM6.200 10H11v4H6.200a8 8 0 0 1 0-4zM13 10h4.800a8 8 0 0 1 0 4H13zM7.500 16H11v3.900A8 8 0 0 1 7.500 16zM13 16h3.500A8 8 0 0 1 13 19.900z\"/>'\n};\nfunction detect(h){h=(h||'').toLowerCase();\nif(h.indexOf('tel:')===0)return'phone';if(h.indexOf('mailto:')===0)return'email';\nif(/t\\.me|telegram/.test(h))return'telegram';if(/wa\\.me|whatsapp/.test(h))return'whatsapp';\nif(/m\\.me|messenger/.test(h))return'messenger';if(/facebook|fb\\.com|fb\\.me/.test(h))return'facebook';\nif(/youtube|youtu\\.be/.test(h))return'youtube';if(/instagram/.test(h))return'instagram';\nif(/tiktok/.test(h))return'tiktok';if(/discord/.test(h))return'discord';return'website';}\ndocument.querySelectorAll('.gb-wrap').forEach(function(root){\nroot.querySelectorAll('.gb-btn').forEach(function(b){\nvar t=b.querySelector('.gb-title').textContent.trim(),l=b.querySelector('.gb-lab').textContent.trim();\nif(!t&&!l){b.remove();return;}\nvar href=(b.getAttribute('href')||'').trim();\nif(!href){b.removeAttribute('href');}\nelse{\nif(!/^(https?:|tel:|mailto:|\\/|#)/i.test(href))href='https://'+href;\nb.setAttribute('href',href);\nif(/^https?:/i.test(href)){b.target='_blank';b.rel='noopener noreferrer';}\n}\nvar box=b.querySelector('.gb-ic'),img=box.querySelector('.gb-custom');\nif(img&&img.getAttribute('src')){img.style.display='block';return;}\nvar k=(b.dataset.icon||'Auto').toLowerCase();\nif(k==='auto'||!P[k])k=detect(href);\nbox.innerHTML='<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">'+P[k]+'</svg>';\n});\n});\n})();\n</script>\n</div>",
+              "code": "<div class=\"bs gb-wrap\">\n<style>\n.gb-wrap .gb-in{max-width:880px;margin:0 auto;padding:0 12px;font-family:'DM Sans',sans-serif}\n.gb-wrap .gb-heading{margin:0 0 14px;font-family:'DM Sans',sans-serif;font-size:25px;line-height:1.25;font-weight:700;color:var(--txt,#1a1714)}\n.gb-wrap .gb-row{display:flex;flex-wrap:wrap;gap:14px}\n.gb-wrap .gb-btn{display:flex;align-items:center;gap:14px;width:270px;max-width:100%;padding:10px 14px;border-radius:12px;background:var(--acc,#0ea5e9);color:#fff;text-decoration:none;box-shadow:0 4px 12px rgba(0,0,0,.28);transition:transform .2s,filter .2s;box-sizing:border-box}\n.gb-wrap a.gb-btn:hover{transform:translateY(-2px);filter:brightness(1.1)}\n.gb-wrap .gb-ic{flex:none;width:38px;height:38px;border-radius:50%;background:#fff;color:var(--acc,#0ea5e9);display:flex;align-items:center;justify-content:center;overflow:hidden}\n.gb-wrap .gb-ic svg{width:22px;height:22px;fill:currentColor}\n.gb-wrap .gb-ic img{width:22px;height:22px;object-fit:contain;display:block}\n.gb-wrap .gb-tx{display:flex;flex-direction:column;line-height:1.25;min-width:0}\n.gb-wrap .gb-lab{font-size:11px;text-transform:uppercase;letter-spacing:.05em;opacity:.85}\n.gb-wrap .gb-title{font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}\n@media(max-width:640px){\n.gb-wrap .gb-heading{font-size:15px;margin-bottom:10px}\n.gb-wrap .gb-row{gap:10px}\n.gb-wrap .gb-btn{width:calc(50% - 5px);gap:8px;padding:8px 10px}\n.gb-wrap .gb-ic{width:30px;height:30px}\n.gb-wrap .gb-ic svg,.gb-wrap .gb-ic img{width:18px;height:18px}\n}\n</style>\n\n<div class=\"gb-in\">\n<div class=\"gb-heading\">{{TITLE}}</div>\n<div class=\"gb-row\">\n<a class=\"gb-btn\" href=\"{{LINK_1}}\" data-icon=\"{{ICON_1}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_1}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_1}}</span><span class=\"gb-title\">{{TITLE_1}}</span></span></a>\n<a class=\"gb-btn\" href=\"{{LINK_2}}\" data-icon=\"{{ICON_2}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_2}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_2}}</span><span class=\"gb-title\">{{TITLE_2}}</span></span></a>\n<a class=\"gb-btn\" href=\"{{LINK_3}}\" data-icon=\"{{ICON_3}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_3}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_3}}</span><span class=\"gb-title\">{{TITLE_3}}</span></span></a>\n<a class=\"gb-btn\" href=\"{{LINK_4}}\" data-icon=\"{{ICON_4}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_4}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_4}}</span><span class=\"gb-title\">{{TITLE_4}}</span></span></a>\n</div>\n</div>\n\n<script>\n(function(){\nvar P={\ntelegram:'<path d=\"M21.5 3.5 2.8 10.7c-.9.3-.9 1.6 0 1.9l4.7 1.5 1.8 5.6c.2.6.9.8 1.4.4l2.6-2.2 4.7 3.4c.6.4 1.4.1 1.6-.6L23 5c.2-.9-.7-1.8-1.5-1.5zM8.5 13.6l9.7-6-7.4 7.2-.3 3.2-2-4.4z\"/>',\nwhatsapp:'<path fill-rule=\"evenodd\" d=\"M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.2 14.8l-.3-.2-2.4.6.7-2.3-.2-.3A8 8 0 0 1 12 4zM8.8 7.5c-.5.5-.6 1.5.2 3 .9 1.7 2.3 3 4 3.7 1.3.5 2.1.2 2.5-.4l.3-.8-1.9-1-.7.7c-.8-.3-2-1.3-2.4-2.4l.7-.7-.9-2z\"/>',\nfacebook:'<path d=\"M14 8h2V5h-2.5C11 5 10 6.6 10 8.5V10H8v3h2v7h3v-7h2.2l.4-3H13V8.7c0-.5.2-.7 1-.7z\"/>',\nmessenger:'<path fill-rule=\"evenodd\" d=\"M12 2C6.5 2 2 6.2 2 11.4c0 2.9 1.4 5.5 3.7 7.2V22l3.4-1.9c.9.3 1.9.4 2.9.4 5.5 0 10-4.2 10-9.4S17.5 2 12 2zm1 12.5-2.5-2.6-4.8 2.6L11 8.9l2.5 2.6 4.8-2.6z\"/>',\nyoutube:'<path fill-rule=\"evenodd\" d=\"M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5 3z\"/>',\ninstagram:'<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"17.3\" cy=\"6.7\" r=\"1.2\"/>',\ntiktok:'<path d=\"M15 3c.3 2.3 1.7 3.8 4 4v3a7 7 0 0 1-4-1.3V15a5 5 0 1 1-5-5h.5v3.2A2 2 0 1 0 12 15V3z\"/>',\ndiscord:'<path fill-rule=\"evenodd\" d=\"M7 6c3-1.5 7-1.5 10 0l2.5 10.5c-2 1.5-4.5 2-7.5 2s-5.5-.5-7.5-2zM9.5 11a1.3 1.3 0 1 0 .01 0zM14.5 11a1.3 1.3 0 1 0 .01 0z\"/>',\nphone:'<path d=\"M6.6 3h3l1.2 4.2-2 1.3a11 11 0 0 0 5.7 5.7l1.3-2 4.2 1.2v3A3.6 3.6 0 0 1 16.4 20 14 14 0 0 1 4 7.6 3.6 3.6 0 0 1 6.6 3z\"/>',\nemail:'<path fill-rule=\"evenodd\" d=\"M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1.5 2 7.5 5.5L19.5 7z\"/>',\nwebsite:'<path fill-rule=\"evenodd\" d=\"M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1 2.1V8H7.5A8 8 0 0 1 11 4.1zM13 4.1A8 8 0 0 1 16.5 8H13zM6.2 10H11v4H6.2a8 8 0 0 1 0-4zM13 10h4.8a8 8 0 0 1 0 4H13zM7.5 16H11v3.9A8 8 0 0 1 7.5 16zM13 16h3.5a8 8 0 0 1-3.5 3.9z\"/>'\n};\nfunction detect(h){\nh=(h||'').toLowerCase();\nif(h.indexOf('tel:')===0)return'phone';\nif(h.indexOf('mailto:')===0)return'email';\nif(/t\\.me|telegram/.test(h))return'telegram';\nif(/wa\\.me|whatsapp/.test(h))return'whatsapp';\nif(/m\\.me|messenger/.test(h))return'messenger';\nif(/facebook|fb\\.com|fb\\.me/.test(h))return'facebook';\nif(/youtube|youtu\\.be/.test(h))return'youtube';\nif(/instagram/.test(h))return'instagram';\nif(/tiktok/.test(h))return'tiktok';\nif(/discord/.test(h))return'discord';\nreturn'website';\n}\ndocument.querySelectorAll('.gb-wrap').forEach(function(root){\nroot.querySelectorAll('.gb-btn').forEach(function(b){\nvar t=b.querySelector('.gb-title').textContent.trim(),l=b.querySelector('.gb-lab').textContent.trim();\nif(!t&&!l){b.remove();return;}\nvar href=(b.getAttribute('href')||'').trim();\nif(!href)b.removeAttribute('href');\nelse{\nif(!/^(https?:|tel:|mailto:|\\/|#)/i.test(href))href='https://'+href;\nb.setAttribute('href',href);\nif(/^https?:/i.test(href)){b.target='_blank';b.rel='noopener noreferrer';}\n}\nvar box=b.querySelector('.gb-ic'),img=box.querySelector('.gb-custom');\nif(img&&img.getAttribute('src')){img.style.display='block';return;}\nvar k=(b.dataset.icon||'Auto').toLowerCase();\nif(k==='auto'||!P[k])k=detect(href);\nbox.innerHTML='<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">'+P[k]+'</svg>';\n});\n});\n})();\n</script>\n\n</div>",
               "description": "",
-              "savedBlockId": "cb_1790928138863_qzja5",
+              "savedBlockId": "cb_1791237092555_l51y5",
               "controls": [
+                {
+                  "token": "TITLE",
+                  "label": "Section title",
+                  "type": "text",
+                  "default": "Official Support"
+                },
                 {
                   "token": "LABEL_1",
                   "label": "Button 1 - small label",
@@ -582,7 +534,7 @@
                   "token": "LINK_1",
                   "label": "Button 1 - link",
                   "type": "url",
-                  "default": "https://t.me/example"
+                  "default": "https://www.instagram.com/rejaul.korim.rk/"
                 },
                 {
                   "token": "ICON_1",
@@ -626,7 +578,7 @@
                   "token": "LINK_2",
                   "label": "Button 2 - link",
                   "type": "url",
-                  "default": "https://wa.me/8801000000000"
+                  "default": "https://wa.me/8801647277895"
                 },
                 {
                   "token": "ICON_2",
@@ -658,19 +610,19 @@
                   "token": "LABEL_3",
                   "label": "Button 3 - small label",
                   "type": "text",
-                  "default": ""
+                  "default": "Support"
                 },
                 {
                   "token": "TITLE_3",
                   "label": "Button 3 - title",
                   "type": "text",
-                  "default": ""
+                  "default": "Facebook."
                 },
                 {
                   "token": "LINK_3",
                   "label": "Button 3 - link",
                   "type": "url",
-                  "default": ""
+                  "default": "https://www.facebook.com/Admin.RK.FB"
                 },
                 {
                   "token": "ICON_3",
@@ -744,6 +696,7 @@
                 }
               ],
               "controlValues": {
+                "TITLE": "Official Support",
                 "LABEL_1": "Group",
                 "TITLE_1": "Join Group",
                 "LINK_1": "https://www.instagram.com/rejaul.korim.rk/",
@@ -772,6 +725,67 @@
             "type": "divider",
             "data": {
               "symbol": "✦"
+            }
+          },
+          {
+            "id": "bmuqjuaw6w7g",
+            "type": "reviewblock",
+            "data": {
+              "title": "What people say",
+              "subtitle": "Sign in with Google to leave your own review.",
+              "clientId": "",
+              "scriptUrl": "",
+              "tab": "Sheet1",
+              "ratingOn": true,
+              "maxRating": 5,
+              "requireRating": true,
+              "minLen": 10,
+              "maxLen": 1000,
+              "pageSize": 10,
+              "allowEdit": true,
+              "maxPerEmail": 1,
+              "cooldownSec": 30,
+              "confirmSeconds": 5,
+              "moderation": "auto",
+              "onlyGmail": false,
+              "allowedDomain": "",
+              "showAverage": true,
+              "showBreakdown": true,
+              "showAvatar": true,
+              "showAge": true,
+              "showRefresh": true,
+              "starColor": "",
+              "cardBg": "",
+              "radius": "soft",
+              "spacing": "normal",
+              "align": "left",
+              "texts": {
+                "signInPrompt": "Sign in with Google to write a review",
+                "writeTitle": "Write a review",
+                "namePlaceholder": "Your name",
+                "messagePlaceholder": "Share your experience…",
+                "submit": "Review and send",
+                "yourReview": "Your review",
+                "edit": "Edit your review",
+                "confirmTitle": "Send this review?",
+                "confirmWarning": "Once you send this, it is public and you cannot take it back. Please read it again and check it carefully.",
+                "confirmSend": "Send review",
+                "cancel": "Cancel",
+                "success": "Thank you! Your review has been posted.",
+                "emptyTitle": "No reviews yet",
+                "emptyText": "Be the first to share your experience.",
+                "privacy": "We use Google Sign-In to verify your email. Your email is saved with your review and is never shown on the page.",
+                "privacyLinkText": "Privacy policy",
+                "privacyLinkUrl": ""
+              }
+            },
+            "hidden": false
+          },
+          {
+            "id": "bmurbe0wv0fm",
+            "type": "divider",
+            "data": {
+              "symbol": ""
             }
           },
           {
@@ -804,13 +818,6 @@
                   "color": "red"
                 }
               ]
-            }
-          },
-          {
-            "id": "bmurbe0wv0fm",
-            "type": "divider",
-            "data": {
-              "symbol": ""
             }
           },
           {
@@ -937,7 +944,7 @@
         "8": true
       },
       "scriptSeen": {
-        "https://script.google.com/macros/s/AKfycbxX2XKx71jJFYR70Sli2keX-p5Yafhdx9Y3QfG-baDZlnuVLiewvdeQLD9h8n4qiplCOQ/exec": "4c7e3751"
+        "https://script.google.com/macros/s/AKfycbxX2XKx71jJFYR70Sli2keX-p5Yafhdx9Y3QfG-baDZlnuVLiewvdeQLD9h8n4qiplCOQ/exec": "7f9e95c6"
       }
     },
     "github": {
@@ -947,7 +954,7 @@
       "path": ""
     },
     "folderAttached": true,
-    "folderName": "EWFREW",
+    "folderName": "Rejaul_Korim_RK",
     "customFoldersEver": [
       "dashboard"
     ],
@@ -1162,7 +1169,7 @@
       "data": {
         "title": "Rejaul Korim RK SHOP",
         "currency": "৳",
-        "mode": "one",
+        "mode": "multi",
         "whatsapp": "8801647277895",
         "payment": "Send the money to: 8801647277895 (bKash)\nReference: {id}",
         "showRecent": true,
@@ -1182,7 +1189,7 @@
             "price": "100",
             "allowQty": true,
             "available": true,
-            "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
+            "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
             "packages": [
               {
                 "id": "k_demo01",
@@ -1211,7 +1218,7 @@
             ],
             "oldPrice": "120",
             "label": "HOT",
-            "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
+            "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
           },
           {
             "id": "p_fl488y",
@@ -1242,8 +1249,8 @@
             ],
             "allowQty": true,
             "available": true,
-            "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n",
-            "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
+            "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
+            "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
           },
           {
             "id": "p_w4y277",
@@ -1274,8 +1281,8 @@
             ],
             "allowQty": false,
             "available": true,
-            "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
-            "details": "⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
+            "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
+            "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
           },
           {
             "id": "p_048wv8",
@@ -1312,8 +1319,8 @@
             ],
             "allowQty": false,
             "available": true,
-            "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
-            "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
+            "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
+            "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
           },
           {
             "id": "p_vmj5xx",
@@ -1344,8 +1351,8 @@
             ],
             "allowQty": true,
             "available": true,
-            "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
-            "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
+            "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
+            "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
             "label": "New"
           },
           {
@@ -1371,8 +1378,8 @@
             ],
             "allowQty": false,
             "available": true,
-            "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
-            "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার সাথে সাথে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে কি কারণে তা Cancel হয়েছে তা অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
+            "rules": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।",
+            "details": "✅ এই প্রোডাক্টটি শুধুমাত্র Bangladesh সার্ভারে ID Code দিয়ে টপ আপ হবে।\n⏰অর্ডার করার ১০-১৫ মিনিটের মধ্যে ডেলিভারি হবে । তবে নির্ধারিত সময়ের মধ্যে না পেলে, দয়া করে আমাদের WhatsApp সাপোর্ট নম্বারে মেসেজ দিন।\n🛑 Player ID Code ভুল দিয়ে Diamond না পেলে Topupshop কর্তৃপক্ষ দায়ী নয় ।\n✔️Order কমপ্লিট হওয়ার পরেও আইডিতে ডাইমন্ড না গেলে চেক করার জন্য ID Pass দিতে হবে।\n✔️অর্ডার Cancel হলে তা  অর্ডার হিস্টোরিতে দেওয়া থাকে অনুগ্রহ পুর্বক দেখে পুনরায় সঠিক তথ্য দিয়ে অর্ডার করবেন।"
           }
         ],
         "fields": [
@@ -1425,7 +1432,7 @@
           "pay": true,
           "test": false
         },
-        "scriptSeen": "148050007",
+        "scriptSeen": "-1018885724",
         "dashUrl": "https://monilaila.github.io/Google-API./projects/dashboard/dashboard.html",
         "dashLink": true,
         "email": {
@@ -1446,68 +1453,20 @@
       "hidden": false
     },
     {
-      "id": "bmuqjuaw6w7g",
-      "type": "reviewblock",
-      "data": {
-        "title": "What people say",
-        "subtitle": "Sign in with Google to leave your own review.",
-        "clientId": "",
-        "scriptUrl": "",
-        "tab": "Sheet1",
-        "ratingOn": true,
-        "maxRating": 5,
-        "requireRating": true,
-        "minLen": 10,
-        "maxLen": 1000,
-        "pageSize": 10,
-        "allowEdit": true,
-        "maxPerEmail": 1,
-        "cooldownSec": 30,
-        "confirmSeconds": 5,
-        "moderation": "auto",
-        "onlyGmail": false,
-        "allowedDomain": "",
-        "showAverage": true,
-        "showBreakdown": true,
-        "showAvatar": true,
-        "showAge": true,
-        "showRefresh": true,
-        "starColor": "",
-        "cardBg": "",
-        "radius": "soft",
-        "spacing": "normal",
-        "align": "left",
-        "texts": {
-          "signInPrompt": "Sign in with Google to write a review",
-          "writeTitle": "Write a review",
-          "namePlaceholder": "Your name",
-          "messagePlaceholder": "Share your experience…",
-          "submit": "Review and send",
-          "yourReview": "Your review",
-          "edit": "Edit your review",
-          "confirmTitle": "Send this review?",
-          "confirmWarning": "Once you send this, it is public and you cannot take it back. Please read it again and check it carefully.",
-          "confirmSend": "Send review",
-          "cancel": "Cancel",
-          "success": "Thank you! Your review has been posted.",
-          "emptyTitle": "No reviews yet",
-          "emptyText": "Be the first to share your experience.",
-          "privacy": "We use Google Sign-In to verify your email. Your email is saved with your review and is never shown on the page.",
-          "privacyLinkText": "Privacy policy",
-          "privacyLinkUrl": ""
-        }
-      },
-      "hidden": true
-    },
-    {
       "id": "bmuqo5yp2vx0",
       "type": "customblock",
       "data": {
         "blockName": "Group / Support butt",
-        "code": "<div class=\"bs gb-wrap\">\n<style>\n.gb-wrap .gb-in{max-width:1180px;margin:0 auto;padding:0 12px;font-family:'DM Sans',sans-serif}\n.gb-wrap .gb-row{display:flex;flex-wrap:wrap;gap:14px}\n.gb-wrap .gb-btn{display:flex;align-items:center;gap:14px;width:270px;max-width:100%;padding:10px 14px;border-radius:12px;background:var(--acc,#0ea5e9);color:#fff;text-decoration:none;box-shadow:0 4px 12px rgba(0,0,0,.28);transition:transform .2s,filter .2s;box-sizing:border-box}\n.gb-wrap a.gb-btn:hover{transform:translateY(-2px);filter:brightness(1.1)}\n.gb-wrap .gb-ic{flex:none;width:38px;height:38px;border-radius:50%;background:#fff;color:var(--acc,#0ea5e9);display:flex;align-items:center;justify-content:center;overflow:hidden}\n.gb-wrap .gb-ic svg{width:22px;height:22px;fill:currentColor}\n.gb-wrap .gb-ic img{width:22px;height:22px;object-fit:contain;display:block}\n.gb-wrap .gb-tx{display:flex;flex-direction:column;line-height:1.25;min-width:0}\n.gb-wrap .gb-lab{font-size:11px;text-transform:uppercase;letter-spacing:.05em;opacity:.85}\n.gb-wrap .gb-title{font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}\n@media(max-width:640px){\n.gb-wrap .gb-row{gap:10px}\n.gb-wrap .gb-btn{width:calc(50% - 5px);gap:8px;padding:8px 10px}\n.gb-wrap .gb-ic{width:30px;height:30px}\n.gb-wrap .gb-ic svg,.gb-wrap .gb-ic img{width:18px;height:18px}\n}\n</style>\n<div class=\"gb-in\"><div class=\"gb-row\">\n<a class=\"gb-btn\" href=\"{{LINK_1}}\" data-icon=\"{{ICON_1}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_1}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_1}}</span><span class=\"gb-title\">{{TITLE_1}}</span></span></a>\n<a class=\"gb-btn\" href=\"{{LINK_2}}\" data-icon=\"{{ICON_2}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_2}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_2}}</span><span class=\"gb-title\">{{TITLE_2}}</span></span></a>\n<a class=\"gb-btn\" href=\"{{LINK_3}}\" data-icon=\"{{ICON_3}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_3}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_3}}</span><span class=\"gb-title\">{{TITLE_3}}</span></span></a>\n<a class=\"gb-btn\" href=\"{{LINK_4}}\" data-icon=\"{{ICON_4}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_4}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_4}}</span><span class=\"gb-title\">{{TITLE_4}}</span></span></a>\n</div></div>\n<script>\n(function(){\nvar P={\ntelegram:'<path d=\"M21.5 3.5 2.8 10.7c-.9.3-.9 1.6 0 1.9l4.7 1.5 1.8 5.6c.2.6.9.8 1.4.4l2.6-2.2 4.7 3.4c.6.4 1.4.1 1.6-.6L23 5c.2-.9-.7-1.8-1.5-1.5zM8.5 13.6l9.7-6-7.4 7.2-.3 3.2-2-4.4z\"/>',\nwhatsapp:'<path fill-rule=\"evenodd\" d=\"M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.2 14.8l-.3-.2-2.4.6.7-2.3-.2-.3A8 8 0 0 1 12 4zM8.8 7.5c-.5.5-.6 1.5.2 3 .9 1.7 2.3 3 4 3.7 1.3.5 2.1.2 2.5-.4l.3-.8-1.9-1-.7.7c-.8-.3-2-1.3-2.4-2.4l.7-.7-.9-2z\"/>',\nfacebook:'<path d=\"M14 8h2V5h-2.5C11 5 10 6.6 10 8.5V10H8v3h2v7h3v-7h2.2l.4-3H13V8.7c0-.5.2-.7 1-.7z\"/>',\nmessenger:'<path fill-rule=\"evenodd\" d=\"M12 2C6.5 2 2 6.2 2 11.4c0 2.9 1.4 5.5 3.7 7.2V22l3.4-1.9c.9.3 1.9.4 2.9.4 5.5 0 10-4.2 10-9.4S17.5 2 12 2zm1 12.500-2.500-2.600-4.800 2.600 5.300-5.600 2.500 2.600 4.800-2.600z\"/>',\nyoutube:'<path fill-rule=\"evenodd\" d=\"M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.200 5 12 5 12 5s-6.200 0-7.800.4A2.500 2.500 0 0 0 2.400 7.200C2 8.800 2 12 2 12s0 3.200.4 4.800a2.500 2.500 0 0 0 1.800 1.800C5.800 19 12 19 12 19s6.200 0 7.800-.4a2.500 2.500 0 0 0 1.800-1.800c.4-1.600.4-4.800.4-4.800s0-3.200-.4-4.800zM10 15V9l5 3z\"/>',\ninstagram:'<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"17.3\" cy=\"6.7\" r=\"1.2\"/>',\ntiktok:'<path d=\"M15 3c.3 2.3 1.7 3.8 4 4v3a7 7 0 0 1-4-1.3V15a5 5 0 1 1-5-5h.5v3.2A2 2 0 1 0 12 15V3z\"/>',\ndiscord:'<path fill-rule=\"evenodd\" d=\"M7 6c3-1.500 7-1.500 10 0l2.500 10.500c-2 1.500-4.500 2-7.500 2s-5.500-.5-7.500-2zM9.500 11a1.300 1.300 0 1 0 .01 0zM14.500 11a1.300 1.300 0 1 0 .01 0z\"/>',\nphone:'<path d=\"M6.6 3h3l1.200 4.200-2 1.300a11 11 0 0 0 5.700 5.700l1.300-2L20 13.400v3A3.600 3.600 0 0 1 16.400 20 14 14 0 0 1 4 7.600 3.600 3.600 0 0 1 6.600 3z\"/>',\nemail:'<path fill-rule=\"evenodd\" d=\"M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1.500 2 7.500 5.500L19.500 7z\"/>',\nwebsite:'<path fill-rule=\"evenodd\" d=\"M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1 2.100V8H7.500A8 8 0 0 1 11 4.100zM13 4.100A8 8 0 0 1 16.500 8H13zM6.200 10H11v4H6.200a8 8 0 0 1 0-4zM13 10h4.800a8 8 0 0 1 0 4H13zM7.500 16H11v3.900A8 8 0 0 1 7.500 16zM13 16h3.500A8 8 0 0 1 13 19.900z\"/>'\n};\nfunction detect(h){h=(h||'').toLowerCase();\nif(h.indexOf('tel:')===0)return'phone';if(h.indexOf('mailto:')===0)return'email';\nif(/t\\.me|telegram/.test(h))return'telegram';if(/wa\\.me|whatsapp/.test(h))return'whatsapp';\nif(/m\\.me|messenger/.test(h))return'messenger';if(/facebook|fb\\.com|fb\\.me/.test(h))return'facebook';\nif(/youtube|youtu\\.be/.test(h))return'youtube';if(/instagram/.test(h))return'instagram';\nif(/tiktok/.test(h))return'tiktok';if(/discord/.test(h))return'discord';return'website';}\ndocument.querySelectorAll('.gb-wrap').forEach(function(root){\nroot.querySelectorAll('.gb-btn').forEach(function(b){\nvar t=b.querySelector('.gb-title').textContent.trim(),l=b.querySelector('.gb-lab').textContent.trim();\nif(!t&&!l){b.remove();return;}\nvar href=(b.getAttribute('href')||'').trim();\nif(!href){b.removeAttribute('href');}\nelse{\nif(!/^(https?:|tel:|mailto:|\\/|#)/i.test(href))href='https://'+href;\nb.setAttribute('href',href);\nif(/^https?:/i.test(href)){b.target='_blank';b.rel='noopener noreferrer';}\n}\nvar box=b.querySelector('.gb-ic'),img=box.querySelector('.gb-custom');\nif(img&&img.getAttribute('src')){img.style.display='block';return;}\nvar k=(b.dataset.icon||'Auto').toLowerCase();\nif(k==='auto'||!P[k])k=detect(href);\nbox.innerHTML='<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">'+P[k]+'</svg>';\n});\n});\n})();\n</script>\n</div>",
+        "code": "<div class=\"bs gb-wrap\">\n<style>\n.gb-wrap .gb-in{max-width:880px;margin:0 auto;padding:0 12px;font-family:'DM Sans',sans-serif}\n.gb-wrap .gb-heading{margin:0 0 14px;font-family:'DM Sans',sans-serif;font-size:25px;line-height:1.25;font-weight:700;color:var(--txt,#1a1714)}\n.gb-wrap .gb-row{display:flex;flex-wrap:wrap;gap:14px}\n.gb-wrap .gb-btn{display:flex;align-items:center;gap:14px;width:270px;max-width:100%;padding:10px 14px;border-radius:12px;background:var(--acc,#0ea5e9);color:#fff;text-decoration:none;box-shadow:0 4px 12px rgba(0,0,0,.28);transition:transform .2s,filter .2s;box-sizing:border-box}\n.gb-wrap a.gb-btn:hover{transform:translateY(-2px);filter:brightness(1.1)}\n.gb-wrap .gb-ic{flex:none;width:38px;height:38px;border-radius:50%;background:#fff;color:var(--acc,#0ea5e9);display:flex;align-items:center;justify-content:center;overflow:hidden}\n.gb-wrap .gb-ic svg{width:22px;height:22px;fill:currentColor}\n.gb-wrap .gb-ic img{width:22px;height:22px;object-fit:contain;display:block}\n.gb-wrap .gb-tx{display:flex;flex-direction:column;line-height:1.25;min-width:0}\n.gb-wrap .gb-lab{font-size:11px;text-transform:uppercase;letter-spacing:.05em;opacity:.85}\n.gb-wrap .gb-title{font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}\n@media(max-width:640px){\n.gb-wrap .gb-heading{font-size:15px;margin-bottom:10px}\n.gb-wrap .gb-row{gap:10px}\n.gb-wrap .gb-btn{width:calc(50% - 5px);gap:8px;padding:8px 10px}\n.gb-wrap .gb-ic{width:30px;height:30px}\n.gb-wrap .gb-ic svg,.gb-wrap .gb-ic img{width:18px;height:18px}\n}\n</style>\n\n<div class=\"gb-in\">\n<div class=\"gb-heading\">{{TITLE}}</div>\n<div class=\"gb-row\">\n<a class=\"gb-btn\" href=\"{{LINK_1}}\" data-icon=\"{{ICON_1}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_1}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_1}}</span><span class=\"gb-title\">{{TITLE_1}}</span></span></a>\n<a class=\"gb-btn\" href=\"{{LINK_2}}\" data-icon=\"{{ICON_2}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_2}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_2}}</span><span class=\"gb-title\">{{TITLE_2}}</span></span></a>\n<a class=\"gb-btn\" href=\"{{LINK_3}}\" data-icon=\"{{ICON_3}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_3}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_3}}</span><span class=\"gb-title\">{{TITLE_3}}</span></span></a>\n<a class=\"gb-btn\" href=\"{{LINK_4}}\" data-icon=\"{{ICON_4}}\"><span class=\"gb-ic\"><img class=\"gb-custom\" src=\"{{PNG_4}}\" alt=\"\" style=\"display:none\"></span><span class=\"gb-tx\"><span class=\"gb-lab\">{{LABEL_4}}</span><span class=\"gb-title\">{{TITLE_4}}</span></span></a>\n</div>\n</div>\n\n<script>\n(function(){\nvar P={\ntelegram:'<path d=\"M21.5 3.5 2.8 10.7c-.9.3-.9 1.6 0 1.9l4.7 1.5 1.8 5.6c.2.6.9.8 1.4.4l2.6-2.2 4.7 3.4c.6.4 1.4.1 1.6-.6L23 5c.2-.9-.7-1.8-1.5-1.5zM8.5 13.6l9.7-6-7.4 7.2-.3 3.2-2-4.4z\"/>',\nwhatsapp:'<path fill-rule=\"evenodd\" d=\"M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.2 14.8l-.3-.2-2.4.6.7-2.3-.2-.3A8 8 0 0 1 12 4zM8.8 7.5c-.5.5-.6 1.5.2 3 .9 1.7 2.3 3 4 3.7 1.3.5 2.1.2 2.5-.4l.3-.8-1.9-1-.7.7c-.8-.3-2-1.3-2.4-2.4l.7-.7-.9-2z\"/>',\nfacebook:'<path d=\"M14 8h2V5h-2.5C11 5 10 6.6 10 8.5V10H8v3h2v7h3v-7h2.2l.4-3H13V8.7c0-.5.2-.7 1-.7z\"/>',\nmessenger:'<path fill-rule=\"evenodd\" d=\"M12 2C6.5 2 2 6.2 2 11.4c0 2.9 1.4 5.5 3.7 7.2V22l3.4-1.9c.9.3 1.9.4 2.9.4 5.5 0 10-4.2 10-9.4S17.5 2 12 2zm1 12.5-2.5-2.6-4.8 2.6L11 8.9l2.5 2.6 4.8-2.6z\"/>',\nyoutube:'<path fill-rule=\"evenodd\" d=\"M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5 3z\"/>',\ninstagram:'<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"17.3\" cy=\"6.7\" r=\"1.2\"/>',\ntiktok:'<path d=\"M15 3c.3 2.3 1.7 3.8 4 4v3a7 7 0 0 1-4-1.3V15a5 5 0 1 1-5-5h.5v3.2A2 2 0 1 0 12 15V3z\"/>',\ndiscord:'<path fill-rule=\"evenodd\" d=\"M7 6c3-1.5 7-1.5 10 0l2.5 10.5c-2 1.5-4.5 2-7.5 2s-5.5-.5-7.5-2zM9.5 11a1.3 1.3 0 1 0 .01 0zM14.5 11a1.3 1.3 0 1 0 .01 0z\"/>',\nphone:'<path d=\"M6.6 3h3l1.2 4.2-2 1.3a11 11 0 0 0 5.7 5.7l1.3-2 4.2 1.2v3A3.6 3.6 0 0 1 16.4 20 14 14 0 0 1 4 7.6 3.6 3.6 0 0 1 6.6 3z\"/>',\nemail:'<path fill-rule=\"evenodd\" d=\"M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1.5 2 7.5 5.5L19.5 7z\"/>',\nwebsite:'<path fill-rule=\"evenodd\" d=\"M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1 2.1V8H7.5A8 8 0 0 1 11 4.1zM13 4.1A8 8 0 0 1 16.5 8H13zM6.2 10H11v4H6.2a8 8 0 0 1 0-4zM13 10h4.8a8 8 0 0 1 0 4H13zM7.5 16H11v3.9A8 8 0 0 1 7.5 16zM13 16h3.5a8 8 0 0 1-3.5 3.9z\"/>'\n};\nfunction detect(h){\nh=(h||'').toLowerCase();\nif(h.indexOf('tel:')===0)return'phone';\nif(h.indexOf('mailto:')===0)return'email';\nif(/t\\.me|telegram/.test(h))return'telegram';\nif(/wa\\.me|whatsapp/.test(h))return'whatsapp';\nif(/m\\.me|messenger/.test(h))return'messenger';\nif(/facebook|fb\\.com|fb\\.me/.test(h))return'facebook';\nif(/youtube|youtu\\.be/.test(h))return'youtube';\nif(/instagram/.test(h))return'instagram';\nif(/tiktok/.test(h))return'tiktok';\nif(/discord/.test(h))return'discord';\nreturn'website';\n}\ndocument.querySelectorAll('.gb-wrap').forEach(function(root){\nroot.querySelectorAll('.gb-btn').forEach(function(b){\nvar t=b.querySelector('.gb-title').textContent.trim(),l=b.querySelector('.gb-lab').textContent.trim();\nif(!t&&!l){b.remove();return;}\nvar href=(b.getAttribute('href')||'').trim();\nif(!href)b.removeAttribute('href');\nelse{\nif(!/^(https?:|tel:|mailto:|\\/|#)/i.test(href))href='https://'+href;\nb.setAttribute('href',href);\nif(/^https?:/i.test(href)){b.target='_blank';b.rel='noopener noreferrer';}\n}\nvar box=b.querySelector('.gb-ic'),img=box.querySelector('.gb-custom');\nif(img&&img.getAttribute('src')){img.style.display='block';return;}\nvar k=(b.dataset.icon||'Auto').toLowerCase();\nif(k==='auto'||!P[k])k=detect(href);\nbox.innerHTML='<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">'+P[k]+'</svg>';\n});\n});\n})();\n</script>\n\n</div>",
         "description": "",
-        "savedBlockId": "cb_1790928138863_qzja5",
+        "savedBlockId": "cb_1791237092555_l51y5",
         "controls": [
+          {
+            "token": "TITLE",
+            "label": "Section title",
+            "type": "text",
+            "default": "Official Support"
+          },
           {
             "token": "LABEL_1",
             "label": "Button 1 - small label",
@@ -1524,7 +1483,7 @@
             "token": "LINK_1",
             "label": "Button 1 - link",
             "type": "url",
-            "default": "https://t.me/example"
+            "default": "https://www.instagram.com/rejaul.korim.rk/"
           },
           {
             "token": "ICON_1",
@@ -1568,7 +1527,7 @@
             "token": "LINK_2",
             "label": "Button 2 - link",
             "type": "url",
-            "default": "https://wa.me/8801000000000"
+            "default": "https://wa.me/8801647277895"
           },
           {
             "token": "ICON_2",
@@ -1600,19 +1559,19 @@
             "token": "LABEL_3",
             "label": "Button 3 - small label",
             "type": "text",
-            "default": ""
+            "default": "Support"
           },
           {
             "token": "TITLE_3",
             "label": "Button 3 - title",
             "type": "text",
-            "default": ""
+            "default": "Facebook."
           },
           {
             "token": "LINK_3",
             "label": "Button 3 - link",
             "type": "url",
-            "default": ""
+            "default": "https://www.facebook.com/Admin.RK.FB"
           },
           {
             "token": "ICON_3",
@@ -1686,6 +1645,7 @@
           }
         ],
         "controlValues": {
+          "TITLE": "Official Support",
           "LABEL_1": "Group",
           "TITLE_1": "Join Group",
           "LINK_1": "https://www.instagram.com/rejaul.korim.rk/",
@@ -1714,6 +1674,67 @@
       "type": "divider",
       "data": {
         "symbol": "✦"
+      }
+    },
+    {
+      "id": "bmuqjuaw6w7g",
+      "type": "reviewblock",
+      "data": {
+        "title": "What people say",
+        "subtitle": "Sign in with Google to leave your own review.",
+        "clientId": "",
+        "scriptUrl": "",
+        "tab": "Sheet1",
+        "ratingOn": true,
+        "maxRating": 5,
+        "requireRating": true,
+        "minLen": 10,
+        "maxLen": 1000,
+        "pageSize": 10,
+        "allowEdit": true,
+        "maxPerEmail": 1,
+        "cooldownSec": 30,
+        "confirmSeconds": 5,
+        "moderation": "auto",
+        "onlyGmail": false,
+        "allowedDomain": "",
+        "showAverage": true,
+        "showBreakdown": true,
+        "showAvatar": true,
+        "showAge": true,
+        "showRefresh": true,
+        "starColor": "",
+        "cardBg": "",
+        "radius": "soft",
+        "spacing": "normal",
+        "align": "left",
+        "texts": {
+          "signInPrompt": "Sign in with Google to write a review",
+          "writeTitle": "Write a review",
+          "namePlaceholder": "Your name",
+          "messagePlaceholder": "Share your experience…",
+          "submit": "Review and send",
+          "yourReview": "Your review",
+          "edit": "Edit your review",
+          "confirmTitle": "Send this review?",
+          "confirmWarning": "Once you send this, it is public and you cannot take it back. Please read it again and check it carefully.",
+          "confirmSend": "Send review",
+          "cancel": "Cancel",
+          "success": "Thank you! Your review has been posted.",
+          "emptyTitle": "No reviews yet",
+          "emptyText": "Be the first to share your experience.",
+          "privacy": "We use Google Sign-In to verify your email. Your email is saved with your review and is never shown on the page.",
+          "privacyLinkText": "Privacy policy",
+          "privacyLinkUrl": ""
+        }
+      },
+      "hidden": false
+    },
+    {
+      "id": "bmurbe0wv0fm",
+      "type": "divider",
+      "data": {
+        "symbol": ""
       }
     },
     {
@@ -1746,13 +1767,6 @@
             "color": "red"
           }
         ]
-      }
-    },
-    {
-      "id": "bmurbe0wv0fm",
-      "type": "divider",
-      "data": {
-        "symbol": ""
       }
     },
     {
