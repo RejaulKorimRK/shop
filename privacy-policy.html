@@ -14,7 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
 
 <script>try{var t=localStorage.getItem('bb-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
-<link rel="stylesheet" href="assets/style.css?v=l3xxt6">
+<link rel="stylesheet" href="assets/style.css?v=1ha2wav">
 </head>
 <body data-theme="light">
 
@@ -1225,6 +1225,11 @@ function shSave(S, j){ S.sess = j; try { if(j) localStorage.setItem(S.sk, JSON.s
 function shPkg(p, id){ var k = null; (p.packages||[]).forEach(function(x){ if(x.id === id) k = x; }); return k; }
 function shLine(S, l){ var p = S.pm[l.p], k = shPkg(p, l.k); return (k ? k.price : p.price) * (l.q||1); }
 function shTotal(S){ var t = 0; S.lines.forEach(function(l){ t += shLine(S, l); }); return t; }
+function shRemKey(S, f){ return 'shrem_' + (S.cfg.shop || 'x') + '_' + f.id; }
+function shRemGet(S, f){ try { return localStorage.getItem(shRemKey(S, f)) || ''; } catch(x) { return ''; } }
+function shRemSave(S){
+  try { S.lines.forEach(function(l){ S.cfg.fields.forEach(function(f){ if(f.rem && l.f[f.id]) localStorage.setItem(shRemKey(S, f), String(l.f[f.id]).slice(0, 300)); }); }); } catch(x) {}
+}
 function shMoney(S, n){ return S.cfg.cur + ' ' + n; }
 async function shRaw(S, payload){
   var r = await fetch(S.script, { method:'POST', body: JSON.stringify(payload) });
@@ -1312,6 +1317,7 @@ function shAct(S, a){
   else if(act === 'again'){ S.lines = []; S.order = null; S.view = 'gallery'; S.ref = 'r'+Math.random().toString(36).slice(2)+Date.now().toString(36); S.t0 = Date.now(); }
   else if(act === 'check'){ shCheck(S); return; }
   else if(act === 'mref'){ shMineRefresh(S); return; }
+  else if(act === 'pw'){ var pi = a.parentNode.querySelector('input'); if(pi){ var show = pi.type === 'password'; pi.type = show ? 'text' : 'password'; a.textContent = show ? 'Hide' : 'Show'; } return; }
   else if(act === 'fref'){ shFeedRefresh(S); return; }
   shRender(S);
 }
@@ -1332,7 +1338,7 @@ async function shSubmit(S){
   S.busy = true; S.msg = ''; shRender(S);
   try {
     var r = await shPost(S, { type:'shoporder', whatsapp:S.wa, elapsed: Date.now()-S.t0, clientRef:S.ref, hp:'', items: S.lines.map(function(l){ return { p:l.p, k:l.k, q:l.q, f:l.f }; }) });
-    if(r && r.ok && r.orderId){ shMineAdd(S, r); S.order = r; S.view = 'done'; S.busy = false; shRender(S); shReceipt(S); if(S.cfg.feed) shFeed(S); return; }
+    if(r && r.ok && r.orderId){ shRemSave(S); shMineAdd(S, r); S.order = r; S.view = 'done'; S.busy = false; shRender(S); shReceipt(S); if(S.cfg.feed) shFeed(S); return; }
     var c = r && r.code;
     if(c === 'EXPIRED' || c === 'BAD_SESSION'){ shSave(S, null); S.msg = shTx(S,'expired'); }
     else S.msg = (r && (r.error || r.message)) || shTx(S,'nonet');
@@ -1451,10 +1457,12 @@ function shRender(S){
       if(p.allowQty) h += '<label class="sh-lb">' + T('qty') + '<input class="sh-in" type="number" min="1" max="20" value="' + (l.q||1) + '" data-f="l|' + i + '|q"></label>';
       if(C.fields.length) h += '<div class="sh-h2">' + T('info') + '</div>';
       C.fields.forEach(function(f){
+        if(!l.f[f.id] && f.rem){ var rv = shRemGet(S, f); if(rv) l.f[f.id] = rv; }
         var v = l.f[f.id] || '', nm = 'data-f="l|' + i + '|' + e(f.id) + '"', inp;
         if(f.type === 'longtext') inp = '<textarea class="sh-in" ' + nm + ' placeholder="' + e(f.ph) + '">' + e(v) + '</textarea>';
         else if(f.type === 'select') inp = '<select class="sh-in" ' + nm + '><option value=""></option>' + (f.options||[]).map(function(o){ return '<option' + (o === v ? ' selected' : '') + '>' + e(o) + '</option>'; }).join('') + '</select>';
         else if(f.type === 'checkbox') inp = '<input type="checkbox" ' + nm + (v ? ' checked' : '') + '>';
+        else if(f.type === 'password') inp = '<span class="sh-pw"><input class="sh-in" ' + nm + ' type="password" autocomplete="new-password" value="' + e(v) + '" placeholder="' + e(f.ph) + '"><button type="button" class="sh-link" data-a="pw">Show</button></span>';
         else inp = '<input class="sh-in" ' + nm + ' type="' + (f.type === 'number' ? 'number' : 'text') + '" value="' + e(v) + '" placeholder="' + e(f.ph) + '">';
         h += '<label class="sh-lb">' + e(f.label) + (f.required ? ' *' : '') + inp + '</label>';
       });
@@ -1478,7 +1486,8 @@ function shRender(S){
     o.items.forEach(function(i){ h += '<div class="sh-sum"><span>' + e(i.title) + (i.label ? ' - ' + e(i.label) : '') + (i.qty > 1 ? ' x' + i.qty : '') + '</span><b>' + shMoney(S, i.price * i.qty) + '</b></div>'; });
     h += '<div class="sh-sum tot"><span>' + T('total') + '</span><b>' + shMoney(S, o.total) + '</b></div>';
     if(C.pay) h += '<div class="sh-h2">' + T('pay') + '</div><div class="sh-pay">' + e(C.pay.split('{id}').join(o.orderId)) + '</div>';
-    var msg = encodeURIComponent((C.title || 'Order') + ' ' + o.orderId + ' - ' + shTx(S,'total') + ' ' + shMoney(S, o.total));
+    var nl = String.fromCharCode(10), ilines = (o.items || []).map(function(i){ return i.title + (i.label ? ' - ' + i.label : '') + (i.qty > 1 ? ' x' + i.qty : ''); });
+    var msg = encodeURIComponent((C.title || 'Order') + ' ' + o.orderId + nl + ilines.join(nl) + nl + shTx(S,'total') + ': ' + shMoney(S, o.total));
     var wn = String(C.wa||'').split('+').join('').split(' ').join('').split('-').join('');
     h += '<div class="sh-row">' + (wn ? '<a class="sh-btn" target="_blank" rel="noopener" href="https://wa.me/' + e(wn) + '?text=' + msg + '">' + T('wasend') + '</a><a class="sh-btn alt" href="sms:' + e(C.wa) + '?body=' + msg + '">' + T('sms') + '</a>' : '') + '<button class="sh-btn alt" data-a="dl">' + T('dl') + '</button><button class="sh-btn alt" data-a="again">' + T('again') + '</button></div></div>';
   }
