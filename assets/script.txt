@@ -1154,6 +1154,8 @@ function shSetup(sec){
   }
   sec.addEventListener('click', function(e){ var a = e.target.closest ? e.target.closest('[data-a]') : null; if(a) shAct(S, a); });
   sec.addEventListener('input', function(e){ var t = e.target, f = t.getAttribute && t.getAttribute('data-f'); if(f) shInput(S, t, f); });
+  sec.classList.add('sh-inview');
+  try { if(window.IntersectionObserver){ sec.classList.remove('sh-inview'); new IntersectionObserver(function(en){ en.forEach(function(x){ sec.classList.toggle('sh-inview', x.isIntersecting); }); }, { threshold: 0 }).observe(sec); } } catch(e){ sec.classList.add('sh-inview'); }
   shRender(S);
   if(cfg.feed) shFeed(S);
   if(S.mine.length || S.sess) shMineRefresh(S);
@@ -1208,7 +1210,7 @@ function shAct(S, a){
     S.msg = '';
   }
   else if(act === 'cart'){ S.view = 'order'; S.msg = ''; }
-  else if(act === 'back'){ S.view = 'gallery'; S.msg = ''; }
+  else if(act === 'back'){ if(!S.cfg.multi) S.lines = []; S.view = 'gallery'; S.msg = ''; }
   else if(act === 'pkg'){ S.lines[i].k = a.getAttribute('data-k'); }
   else if(act === 'rm'){ S.lines.splice(i,1); if(!S.lines.length) S.view = 'gallery'; }
   else if(act === 'out'){ shSave(S, null); SBG.signOut(); }
@@ -1341,7 +1343,7 @@ function shRender(S){
   if(S.view === 'gallery'){
     h += shMineHTML(S, T, e);
     h += '<div class="sh-grid">' + C.products.map(function(p){
-      var inc = S.lines.some(function(l){ return l.p === p.id; });
+      var inc = !!C.multi && S.lines.some(function(l){ return l.p === p.id; });
       var mn = shMin(p), lb = p.available === false ? T('sold') : e(p.label||''), off = shOff(mn.p, mn.o);
       return '<button class="sh-card' + (inc ? ' on' : '') + '" data-a="open" data-p="' + e(p.id) + '"' + (p.available === false ? ' disabled' : '') + '><div class="sh-im">' + (p.image ? '<img src="' + e(p.image) + '" alt="">' : '<div class="sh-ph"></div>') + (lb ? '<i class="sh-lab' + (p.available === false ? ' out' : '') + '">' + lb + '</i>' : '') + (off ? '<i class="sh-disc">-' + off + '%</i>' : '') + '</div><b>' + e(p.title) + '</b>' + (p.badge ? '<small>' + e(p.badge) + '</small>' : '') + (p.desc ? '<small class="sh-cd">' + e(p.desc) + '</small>' : '') + (inc ? '<span class="sh-inc">&#10003; ' + T('incart') + '</span>' : shPr(S, mn.p, mn.o)) + '</button>';
     }).join('') + '</div>';
