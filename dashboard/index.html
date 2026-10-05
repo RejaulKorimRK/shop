@@ -23,7 +23,7 @@ body.busy #bar{display:block}body.busy #ov{display:flex}
 .sk{height:120px;border-radius:10px;margin:10px 0;background:linear-gradient(90deg,var(--bg2) 25%,var(--bg3) 50%,var(--bg2) 75%);background-size:200% 100%;animation:sh 1.2s ease infinite}@keyframes sh{to{background-position:-200% 0}}
 </style></head><body><div id="bar"></div><div id="ov"><div><span class="sp"></span><span id="ldt">Working...</span></div></div><div class="w" id="app"></div><div id="toast"></div>
 <script>
-var CFG={"cid":"105779369545-vgsrl95vgoatvqb05g6aqsvvjiee0jqr.apps.googleusercontent.com","url":"https://script.google.com/macros/s/AKfycbxX2XKx71jJFYR70Sli2keX-p5Yafhdx9Y3QfG-baDZlnuVLiewvdeQLD9h8n4qiplCOQ/exec","ver":4,"name":"Shop orders","shops":[{"id":"s_0zeh13","title":"Shop"}]},SK='sbd_'+CFG.cid.slice(0,10),st={sess:null,shop:CFG.shops[0].id,orders:[],next:0,tab:'new',open:{},msg:'',loaded:false,meta:null,set:false,sellers:null,last:0,tabSet:false};
+var CFG={"cid":"105779369545-vgsrl95vgoatvqb05g6aqsvvjiee0jqr.apps.googleusercontent.com","url":"https://script.google.com/macros/s/AKfycbxX2XKx71jJFYR70Sli2keX-p5Yafhdx9Y3QfG-baDZlnuVLiewvdeQLD9h8n4qiplCOQ/exec","ver":4,"name":"Rejaul Korim RK Shop orders","shops":[{"id":"s_0zeh13","title":"Rejaul Korim RK Shop"}]},SK='sbd_'+CFG.cid.slice(0,10),st={sess:null,shop:CFG.shops[0].id,orders:[],next:0,tab:'new',open:{},msg:'',loaded:false,meta:null,set:false,sellers:null,last:0,tabSet:false};
 function $(s){return document.querySelector(s)}
 var busy=0;function setBusy(n,l){busy=Math.max(0,busy+n);if(l)$('#ldt').textContent=l;document.body.classList.toggle('busy',busy>0)}
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
