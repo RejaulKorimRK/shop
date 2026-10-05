@@ -656,7 +656,8 @@
                   "type": "text",
                   "required": true,
                   "ph": "Name",
-                  "options": ""
+                  "options": "",
+                  "remember": true
                 },
                 {
                   "id": "f_uknbwm",
@@ -664,7 +665,8 @@
                   "type": "text",
                   "required": true,
                   "ph": "ID name",
-                  "options": ""
+                  "options": "",
+                  "remember": true
                 },
                 {
                   "id": "f_cmvlid",
@@ -938,7 +940,7 @@
         "8": true
       },
       "scriptSeen": {
-        "https://script.google.com/macros/s/AKfycbxX2XKx71jJFYR70Sli2keX-p5Yafhdx9Y3QfG-baDZlnuVLiewvdeQLD9h8n4qiplCOQ/exec": "f8d8eaa5"
+        "https://script.google.com/macros/s/AKfycbxX2XKx71jJFYR70Sli2keX-p5Yafhdx9Y3QfG-baDZlnuVLiewvdeQLD9h8n4qiplCOQ/exec": "892877cd"
       }
     },
     "github": {
@@ -1599,7 +1601,8 @@
             "type": "text",
             "required": true,
             "ph": "Name",
-            "options": ""
+            "options": "",
+            "remember": true
           },
           {
             "id": "f_uknbwm",
@@ -1607,7 +1610,8 @@
             "type": "text",
             "required": true,
             "ph": "ID name",
-            "options": ""
+            "options": "",
+            "remember": true
           },
           {
             "id": "f_cmvlid",
