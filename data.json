@@ -219,7 +219,7 @@
             "type": "shopblock",
             "data": {
               "title": "Rejaul Korim RK SHOP",
-              "currency": "৳1000",
+              "currency": "৳",
               "mode": "one",
               "whatsapp": "8801647277895",
               "payment": "Send the money to: 8801647277895 (bKash)\nReference: {id}",
@@ -483,7 +483,7 @@
                 "pay": true,
                 "test": false
               },
-              "scriptSeen": "-302415656",
+              "scriptSeen": "148050007",
               "dashUrl": "https://monilaila.github.io/Google-API./projects/dashboard/dashboard.html",
               "dashLink": true,
               "email": {
@@ -937,7 +937,7 @@
         "8": true
       },
       "scriptSeen": {
-        "https://script.google.com/macros/s/AKfycbxX2XKx71jJFYR70Sli2keX-p5Yafhdx9Y3QfG-baDZlnuVLiewvdeQLD9h8n4qiplCOQ/exec": "d6ed79e2"
+        "https://script.google.com/macros/s/AKfycbxX2XKx71jJFYR70Sli2keX-p5Yafhdx9Y3QfG-baDZlnuVLiewvdeQLD9h8n4qiplCOQ/exec": "4c7e3751"
       }
     },
     "github": {
@@ -1161,7 +1161,7 @@
       "type": "shopblock",
       "data": {
         "title": "Rejaul Korim RK SHOP",
-        "currency": "৳1000",
+        "currency": "৳",
         "mode": "one",
         "whatsapp": "8801647277895",
         "payment": "Send the money to: 8801647277895 (bKash)\nReference: {id}",
@@ -1425,7 +1425,7 @@
           "pay": true,
           "test": false
         },
-        "scriptSeen": "-302415656",
+        "scriptSeen": "148050007",
         "dashUrl": "https://monilaila.github.io/Google-API./projects/dashboard/dashboard.html",
         "dashLink": true,
         "email": {
