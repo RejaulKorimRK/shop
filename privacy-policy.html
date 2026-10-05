@@ -14,7 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
 
 <script>try{var t=localStorage.getItem('bb-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
-<link rel="stylesheet" href="assets/style.css?v=1ha2wav">
+<link rel="stylesheet" href="assets/style.css?v=1799qlv">
 </head>
 <body data-theme="light">
 
@@ -1228,7 +1228,7 @@ function shTotal(S){ var t = 0; S.lines.forEach(function(l){ t += shLine(S, l); 
 function shRemKey(S, f){ return 'shrem_' + (S.cfg.shop || 'x') + '_' + f.id; }
 function shRemGet(S, f){ try { return localStorage.getItem(shRemKey(S, f)) || ''; } catch(x) { return ''; } }
 function shRemSave(S){
-  try { S.lines.forEach(function(l){ S.cfg.fields.forEach(function(f){ if(f.rem && l.f[f.id]) localStorage.setItem(shRemKey(S, f), String(l.f[f.id]).slice(0, 300)); }); }); } catch(x) {}
+  try { S.cfg.fields.forEach(function(f){ if(f.rem && S.f && S.f[f.id]) localStorage.setItem(shRemKey(S, f), String(S.f[f.id]).slice(0, 300)); }); } catch(x) {}
 }
 function shMoney(S, n){ return S.cfg.cur + ' ' + n; }
 async function shRaw(S, payload){
@@ -1241,7 +1241,7 @@ async function shPost(S, payload){
 }
 function shSetup(sec){
   var cfg = JSON.parse(sec.getAttribute('data-cfg'));
-  var S = { sec: sec, cfg: cfg, script: sec.getAttribute('data-script') || '', client: sec.getAttribute('data-client') || '', view:'gallery', lines:[], pm:{}, sk:'sb_sess_'+cfg.shop, t0: Date.now(), ref:'r'+Math.random().toString(36).slice(2)+Date.now().toString(36), msg:'', busy:false, feed:null, wa:'', order:null, status:'' };
+  var S = { sec: sec, cfg: cfg, script: sec.getAttribute('data-script') || '', client: sec.getAttribute('data-client') || '', view:'gallery', lines:[], pm:{}, sk:'sb_sess_'+cfg.shop, t0: Date.now(), ref:'r'+Math.random().toString(36).slice(2)+Date.now().toString(36), msg:'', busy:false, feed:null, wa:'', f:{}, order:null, status:'' };
   cfg.products.forEach(function(p){ S.pm[p.id] = p; });
   S.live = SBG.live && !!S.script && !!S.client;
   S.sess = shSess(S); sec._sh = S; S.mine = shMineLoad(S); S.fin = []; S.others = [];
@@ -1294,7 +1294,8 @@ async function shFeed(S, quiet){
 function shInput(S, t, f){
   var p = f.split('|');
   if(p[0] === 'wa') S.wa = t.value;
-  else if(p[0] === 'l'){ var l = S.lines[+p[1]]; if(l){ if(p[2] === 'q') l.q = Math.max(1, Math.min(20, parseInt(t.value,10)||1)); else l.f[p[2]] = t.type === 'checkbox' ? (t.checked ? 'yes' : '') : t.value; if(p[2] === 'q') shTot(S); } }
+  else if(p[0] === 'f'){ S.f = S.f || {}; S.f[p[1]] = t.type === 'checkbox' ? (t.checked ? 'yes' : '') : t.value; }
+  else if(p[0] === 'l'){ var l = S.lines[+p[1]]; if(l && p[2] === 'q'){ l.q = Math.max(1, Math.min(20, parseInt(t.value,10)||1)); shTot(S); } }
   else if(p[0] === 'sid') S.sid = t.value; else if(p[0] === 'scode') S.scode = t.value;
 }
 function shTot(S){ var e = S.sec.querySelector('[data-tot]'); if(e) e.textContent = shMoney(S, shTotal(S)); }
@@ -1314,7 +1315,7 @@ function shAct(S, a){
   else if(act === 'out'){ shSave(S, null); SBG.signOut(); }
   else if(act === 'submit'){ shSubmit(S); return; }
   else if(act === 'dl'){ shReceipt(S); return; }
-  else if(act === 'again'){ S.lines = []; S.order = null; S.view = 'gallery'; S.ref = 'r'+Math.random().toString(36).slice(2)+Date.now().toString(36); S.t0 = Date.now(); }
+  else if(act === 'again'){ S.lines = []; S.f = {}; S.order = null; S.view = 'gallery'; S.ref = 'r'+Math.random().toString(36).slice(2)+Date.now().toString(36); S.t0 = Date.now(); }
   else if(act === 'check'){ shCheck(S); return; }
   else if(act === 'mref'){ shMineRefresh(S); return; }
   else if(act === 'pw'){ var pi = a.parentNode.querySelector('input'); if(pi){ var show = pi.type === 'password'; pi.type = show ? 'text' : 'password'; a.textContent = show ? 'Hide' : 'Show'; } return; }
@@ -1322,14 +1323,16 @@ function shAct(S, a){
   shRender(S);
 }
 function shValidate(S){
+  if(!S.lines.length) return shTx(S,'empty');
   if(!S.sess) return shTx(S,'signin');
   var wa = String(S.wa||'').split(' ').join('').split('-').join('');
   if(!/^[+]?[0-9]{10,15}$/.test(wa)) return shTx(S,'wa') + ' ?';
   for(var i=0;i<S.lines.length;i++){
     var l = S.lines[i], p = S.pm[l.p];
     if((p.packages||[]).length && !shPkg(p, l.k)) return p.title + ': ' + shTx(S,'choose');
-    for(var j=0;j<S.cfg.fields.length;j++){ var f = S.cfg.fields[j]; if(f.required && !String(l.f[f.id]||'').trim()) return f.label + ' ?'; }
   }
+  S.f = S.f || {};
+  for(var j=0;j<S.cfg.fields.length;j++){ var f = S.cfg.fields[j]; if(f.required && !String(S.f[f.id]||'').trim()) return f.label + ' ?'; }
   return '';
 }
 async function shSubmit(S){
@@ -1337,7 +1340,7 @@ async function shSubmit(S){
   var m = shValidate(S); if(m){ S.msg = m; shRender(S); return; }
   S.busy = true; S.msg = ''; shRender(S);
   try {
-    var r = await shPost(S, { type:'shoporder', whatsapp:S.wa, elapsed: Date.now()-S.t0, clientRef:S.ref, hp:'', items: S.lines.map(function(l){ return { p:l.p, k:l.k, q:l.q, f:l.f }; }) });
+    var r = await shPost(S, { type:'shoporder', whatsapp:S.wa, elapsed: Date.now()-S.t0, clientRef:S.ref, hp:'', fields: S.f || {}, items: S.lines.map(function(l){ return { p:l.p, k:l.k, q:l.q, f:S.f || {} }; }) });
     if(r && r.ok && r.orderId){ shRemSave(S); shMineAdd(S, r); S.order = r; S.view = 'done'; S.busy = false; shRender(S); shReceipt(S); if(S.cfg.feed) shFeed(S); return; }
     var c = r && r.code;
     if(c === 'EXPIRED' || c === 'BAD_SESSION'){ shSave(S, null); S.msg = shTx(S,'expired'); }
@@ -1373,11 +1376,11 @@ function shReceipt(S){
     var W = 720, pad = 36, rows = [], c = document.createElement('canvas'), x = c.getContext('2d');
     if(!x) return;
     var when = o.created; try { when = new Intl.DateTimeFormat('en-GB', { timeZone:S.cfg.tz, dateStyle:'medium', timeStyle:'short' }).format(new Date(o.created)); } catch(e){}
-    rows.push(['b', S.cfg.title || 'Order'], ['t', shTx(S,'oid') + ': ' + o.orderId], ['t', when + ' (' + S.cfg.tz + ')'], ['t', '']);
+    rows.push(['b', S.cfg.title || 'Order'], ['t', shTx(S,'oid') + ': ' + o.orderId], ['t', when + ' (' + S.cfg.tz + ')']); if(S.sess && S.sess.email) rows.push(['t', (S.sess.name ? S.sess.name + ' - ' : '') + S.sess.email]); rows.push(['t', '']);
     o.items.forEach(function(i){ rows.push(['t', i.title + (i.label ? ' - ' + i.label : '') + (i.qty > 1 ? ' x' + i.qty : '') + '   ' + S.cfg.cur + ' ' + (i.price * i.qty)]); });
     rows.push(['b', shTx(S,'total') + ': ' + S.cfg.cur + ' ' + o.total], ['t', ''], ['b', shTx(S,'code') + ': ' + o.code], ['t', shTx(S,'save')]);
     if(S.cfg.pay){ rows.push(['t',''], ['b', shTx(S,'pay')]); S.cfg.pay.split(String.fromCharCode(10)).forEach(function(t){ rows.push(['t', t.split('{id}').join(o.orderId)]); }); }
-    var rules = []; S.lines.forEach(function(l){ var p = S.pm[l.p]; if(p.rules) rules.push(p.rules); });
+    var rules = [], rs2 = {}; S.lines.forEach(function(l){ var p = S.pm[l.p]; if(p.rules && !rs2[p.rules]){ rs2[p.rules] = 1; rules.push(p.rules); } });
     if(rules.length){ rows.push(['t',''], ['b', shTx(S,'rules')]); rules.join(String.fromCharCode(10)).split(String.fromCharCode(10)).forEach(function(t){ rows.push(['t', t]); }); }
     var out = [];
     rows.forEach(function(r){
@@ -1451,23 +1454,27 @@ function shRender(S){
     S.lines.forEach(function(l, i){
       var p = S.pm[l.p];
       var mn = shMin(p), kk = shPkg(p, l.k), pr = kk ? kk.price : p.price, po = kk ? kk.old : p.oldPrice, lb = p.available === false ? T('sold') : e(p.label||'');
-      h += '<div class="sh-box"><div class="sh-head">' + '<div class="sh-im big">' + (p.image ? '<img src="' + e(p.image) + '" alt="">' : '<div class="sh-ph"></div>') + (lb ? '<i class="sh-lab">' + lb + '</i>' : '') + '</div><div class="sh-hi"><div class="sh-h big">' + e(p.title) + '</div>' + (p.badge ? '<small class="sh-tag">' + e(p.badge) + '</small>' : '') + '<div>' + shPr(S, pr, po) + '</div>' + (p.desc ? '<div class="sh-desc">' + e(p.desc) + '</div>' : '') + (C.multi ? '<button class="sh-link" data-a="rm" data-i="' + i + '">' + T('remove') + '</button>' : '') + '</div></div>';
+      h += '<div class="sh-box sh-line">' + (C.multi ? '<button type="button" class="sh-rm" data-a="rm" data-i="' + i + '" title="' + T('remove') + '" aria-label="' + T('remove') + '"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M8 6V4h8v2"/><path d="M6 6l1 14h10l1-14"/><path d="M10 11v6"/><path d="M14 11v6"/></svg></button>' : '') + '<div class="sh-head">' + '<div class="sh-im big">' + (p.image ? '<img src="' + e(p.image) + '" alt="">' : '<div class="sh-ph"></div>') + (lb ? '<i class="sh-lab">' + lb + '</i>' : '') + '</div><div class="sh-hi"><div class="sh-h big">' + e(p.title) + '</div>' + (p.badge ? '<small class="sh-tag">' + e(p.badge) + '</small>' : '') + '<div>' + shPr(S, pr, po) + '</div>' + (p.desc ? '<div class="sh-desc">' + e(p.desc) + '</div>' : '') + '</div></div>';
       if(p.details) h += '<div class="sh-h2">' + T('details') + '</div><ul class="sh-rules">' + p.details.split(String.fromCharCode(10)).filter(function(t){ return t.trim(); }).map(function(t){ return '<li>' + e(t) + '</li>'; }).join('') + '</ul>';
       if(p.packages.length){ h += '<div class="sh-h2">' + T('choose') + '</div><div class="sh-pk">' + p.packages.map(function(k){ return '<button class="sh-pkb' + (l.k === k.id ? ' on' : '') + '" data-a="pkg" data-i="' + i + '" data-k="' + e(k.id) + '"><span>' + e(k.label) + '</span><b>' + shPr(S, k.price, k.old) + '</b></button>'; }).join('') + '</div>'; }
       if(p.allowQty) h += '<label class="sh-lb">' + T('qty') + '<input class="sh-in" type="number" min="1" max="20" value="' + (l.q||1) + '" data-f="l|' + i + '|q"></label>';
-      if(C.fields.length) h += '<div class="sh-h2">' + T('info') + '</div>';
-      C.fields.forEach(function(f){
-        if(!l.f[f.id] && f.rem){ var rv = shRemGet(S, f); if(rv) l.f[f.id] = rv; }
-        var v = l.f[f.id] || '', nm = 'data-f="l|' + i + '|' + e(f.id) + '"', inp;
-        if(f.type === 'longtext') inp = '<textarea class="sh-in" ' + nm + ' placeholder="' + e(f.ph) + '">' + e(v) + '</textarea>';
-        else if(f.type === 'select') inp = '<select class="sh-in" ' + nm + '><option value=""></option>' + (f.options||[]).map(function(o){ return '<option' + (o === v ? ' selected' : '') + '>' + e(o) + '</option>'; }).join('') + '</select>';
-        else if(f.type === 'checkbox') inp = '<input type="checkbox" ' + nm + (v ? ' checked' : '') + '>';
-        else if(f.type === 'password') inp = '<span class="sh-pw"><input class="sh-in" ' + nm + ' type="password" autocomplete="new-password" value="' + e(v) + '" placeholder="' + e(f.ph) + '"><button type="button" class="sh-link" data-a="pw">Show</button></span>';
-        else inp = '<input class="sh-in" ' + nm + ' type="' + (f.type === 'number' ? 'number' : 'text') + '" value="' + e(v) + '" placeholder="' + e(f.ph) + '">';
-        h += '<label class="sh-lb">' + e(f.label) + (f.required ? ' *' : '') + inp + '</label>';
-      });
       h += '</div>';
     });
+    if(S.lines.length && C.fields.length){
+      S.f = S.f || {};
+      h += '<div class="sh-box"><div class="sh-h">' + T('info') + '</div>';
+    C.fields.forEach(function(f){
+      if(!S.f[f.id] && f.rem){ var rv = shRemGet(S, f); if(rv) S.f[f.id] = rv; }
+      var v = S.f[f.id] || '', nm = 'data-f="f|' + e(f.id) + '"', inp;
+      if(f.type === 'longtext') inp = '<textarea class="sh-in" ' + nm + ' placeholder="' + e(f.ph) + '">' + e(v) + '</textarea>';
+      else if(f.type === 'select') inp = '<select class="sh-in" ' + nm + '><option value=""></option>' + (f.options||[]).map(function(o){ return '<option' + (o === v ? ' selected' : '') + '>' + e(o) + '</option>'; }).join('') + '</select>';
+      else if(f.type === 'checkbox') inp = '<input type="checkbox" ' + nm + (v ? ' checked' : '') + '>';
+      else if(f.type === 'password') inp = '<span class="sh-pw"><input class="sh-in" ' + nm + ' type="password" autocomplete="new-password" value="' + e(v) + '" placeholder="' + e(f.ph) + '"><button type="button" class="sh-link" data-a="pw">Show</button></span>';
+      else inp = '<input class="sh-in" ' + nm + ' type="' + (f.type === 'number' ? 'number' : 'text') + '" value="' + e(v) + '" placeholder="' + e(f.ph) + '">';
+      h += '<label class="sh-lb">' + e(f.label) + (f.required ? ' *' : '') + inp + '</label>';
+    });
+      h += '</div>';
+    }
     if(S.lines.length){
       h += '<div class="sh-box"><div class="sh-h">' + T('confirm') + '</div>';
       if(S.sess) h += '<div class="sh-ok">&#10003; ' + e(S.sess.email) + ' <button class="sh-link" data-a="out">' + T('notyou') + '</button></div>';
@@ -1477,7 +1484,7 @@ function shRender(S){
       h += '<div class="sh-sum tot"><span>' + T('total') + '</span><b data-tot>' + shMoney(S, shTotal(S)) + '</b></div>';
       if(S.msg) h += '<div class="sh-err">' + e(S.msg) + '</div>';
       h += '<button class="sh-btn big" data-a="submit"' + ((S.busy || !S.live) ? ' disabled' : '') + '>' + (S.busy ? '...' : T('order')) + '</button></div>';
-      var rl = S.lines.filter(function(l){ return S.pm[l.p].rules; }).map(function(l){ return S.pm[l.p].rules; }).join(String.fromCharCode(10));
+      var rseen = {}, rl = S.lines.filter(function(l){ var r = S.pm[l.p].rules; if(!r || rseen[r]) return false; rseen[r] = 1; return true; }).map(function(l){ return S.pm[l.p].rules; }).join(String.fromCharCode(10));
       if(rl) h += '<div class="sh-box"><div class="sh-h">' + T('rules') + '</div><ul class="sh-rules">' + rl.split(String.fromCharCode(10)).filter(function(t){ return t.trim(); }).map(function(t){ return '<li>' + e(t) + '</li>'; }).join('') + '</ul></div>';
     }
   } else if(S.view === 'done' && S.order){
@@ -1486,8 +1493,10 @@ function shRender(S){
     o.items.forEach(function(i){ h += '<div class="sh-sum"><span>' + e(i.title) + (i.label ? ' - ' + e(i.label) : '') + (i.qty > 1 ? ' x' + i.qty : '') + '</span><b>' + shMoney(S, i.price * i.qty) + '</b></div>'; });
     h += '<div class="sh-sum tot"><span>' + T('total') + '</span><b>' + shMoney(S, o.total) + '</b></div>';
     if(C.pay) h += '<div class="sh-h2">' + T('pay') + '</div><div class="sh-pay">' + e(C.pay.split('{id}').join(o.orderId)) + '</div>';
-    var nl = String.fromCharCode(10), ilines = (o.items || []).map(function(i){ return i.title + (i.label ? ' - ' + i.label : '') + (i.qty > 1 ? ' x' + i.qty : ''); });
-    var msg = encodeURIComponent((C.title || 'Order') + ' ' + o.orderId + nl + ilines.join(nl) + nl + shTx(S,'total') + ': ' + shMoney(S, o.total));
+    var nl = String.fromCharCode(10), ilines = (o.items || []).map(function(i){ return '- ' + i.title + (i.label ? ' - ' + i.label : '') + (i.qty > 1 ? ' x' + i.qty : '') + ' = ' + shMoney(S, i.price * i.qty); });
+    var who = []; if(S.sess && S.sess.name) who.push('Name: ' + S.sess.name); if(S.sess && S.sess.email) who.push('Email: ' + S.sess.email);
+    (C.fields || []).forEach(function(f){ var v = (S.f || {})[f.id]; if(v && f.type !== 'password') who.push(f.label + ': ' + v); });
+    var msg = encodeURIComponent((C.title || 'Order') + ' ' + o.orderId + nl + who.join(nl) + (who.length ? nl : '') + ilines.join(nl) + nl + shTx(S,'total') + ': ' + shMoney(S, o.total));
     var wn = String(C.wa||'').split('+').join('').split(' ').join('').split('-').join('');
     h += '<div class="sh-row">' + (wn ? '<a class="sh-btn" target="_blank" rel="noopener" href="https://wa.me/' + e(wn) + '?text=' + msg + '">' + T('wasend') + '</a><a class="sh-btn alt" href="sms:' + e(C.wa) + '?body=' + msg + '">' + T('sms') + '</a>' : '') + '<button class="sh-btn alt" data-a="dl">' + T('dl') + '</button><button class="sh-btn alt" data-a="again">' + T('again') + '</button></div></div>';
   }
