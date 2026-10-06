@@ -1346,6 +1346,7 @@ async function shSubmit(S){
     if(r && r.ok && r.orderId){ shRemSave(S); shMineAdd(S, r); S.order = r; S.view = 'done'; S.busy = false; shRender(S); shReceipt(S); if(S.cfg.feed) shFeed(S); return; }
     var c = r && r.code;
     if(c === 'EXPIRED' || c === 'BAD_SESSION'){ shSave(S, null); S.msg = shTx(S,'expired'); }
+    else if(c === 'ITEMS' && S.lines.length > 1){ S.msg = 'This shop cannot take several items in one order right now. Please order one item at a time, or contact the shop.'; }
     else S.msg = (r && (r.error || r.message)) || shTx(S,'nonet');
   } catch(e){ S.msg = shTx(S,'nonet'); }
   S.busy = false; shRender(S);
